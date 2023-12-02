@@ -17,6 +17,7 @@ const config: Config = {
 			},
 			fontFamily: {
 				'rampart': ['Rampart One', 'sans-serif'],
+				'noto': ['Noto Sans JP', 'sans-serif'],
 			}
 		}
 	},

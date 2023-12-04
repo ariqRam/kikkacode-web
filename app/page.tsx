@@ -1,7 +1,5 @@
 import Image from 'next/image'
 
-import DDay from './dDay'
-
 export default function Home() {
 	return (
 		<main>
@@ -11,7 +9,9 @@ export default function Home() {
 					<h1 className="font-rampart text-6xl"><span className="text-blue">冬休み</span>を<span className="text-red">きっかけ</span>に、<span className="text-green">プログラム</span>を作り<span className="text-yellow">始めよう</span>。</h1>
 					<p className="font-noto text-xl mt-5 leading-7 w-[75%]">プログラミング言語というのは身近なものにも役に立つことを知っていますか？授業だけじゃ足りなくてつまらないなら、一緒に本番のコードを作ったら？</p>
 				</div>
-				<DDay className="font-rampart text-5xl dark:text-white w-[30%]" />
+				<div id="hero-image" className="w-[55%] flex m-auto justify-center">
+					<Image src="./hero.svg" alt="Logo" width={500} height={500}></Image>
+				</div>
 			</section>
 		</main>
 	)

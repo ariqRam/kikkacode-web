@@ -6,11 +6,11 @@ export default function Benefit({ heading, description, className, src }: { head
 	}
 	return (
 		<div className={className + " text-center max-w-[350px] mx-auto"}>
-			<div className="h-[230px] mx-auto">
-				<Image src={src} alt="Logo" width={300} height={300}></Image>
+			<div className="h-[210px] flex justify-center mb-5">
+				<Image src={src} alt="Logo" width={250} height={250}></Image>
 			</div>
 			<h1 className="text-3xl font-rampart h-[110px]">{heading}</h1>
-			<p className="text-lg font-noto text-white">{description}</p>
+			<p className="text-lg font-noto text-white mb-10">{description}</p>
 		</div>
 	)
 }
